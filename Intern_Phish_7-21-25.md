@@ -20,4 +20,17 @@ The focus of this exercise was on the 2025 Summer Intern cohort, comprising 52 i
 
 The primary goal of this phishing exercise was to afford us hands-on experience in the planning and execution of a phishing campaign as a capstone project for our internship. We were given minimal guidance beyond set requirements, allowing us to function independently and enhance our learning through experience. A secondary goal was to evaluate the interns' ability to recognize and report phishing attempts and to facilitate training and education typically associated with such engagements.
 
+## Methodology
+
+### Planning & Preparation
+
+As stated in the Executive Summary, we were provide with 2 guidelines: it must be a credential harvesting attack, and we must be able to demonstrate how an external threat actor would know to impersonate our chosen target. To satisfy these requirements, we turned to OSINT to gather information on potential targets. Using LinkedIn and public email records, we found pictures and posts of the recruiter with the intern group as well as confirmation they had recruited the interns, followed by finding their work email address. We presented this information to our mentor, and were given the green light to proceed. 
+
+Once we had confirmation on our impersonation target, we set to writing the email. Since we needed a credential harvesting attack, we needed some form of login page. We decided that a check-in form from the recruiter would be innoculous enough to slip under the radar. Using standard email formats availabe online combined with samples of the recruiter's own emails and signature, we crafted a targeted email asking recipients to follow a link to a Microsoft form, under a sharepoint link. 
+
+However, there were 3 IoCs present: An 'external' banner, a spoofed email, and a 'SharePointen' link. Recipients were expected to notice the external banner and scrutinize further details. The spoofed email was chosen as we did not have access to an internal email for this exercise, requiring us to swtich two letters in the email address. The 'SharePointen' link was produced using the Microsoft Defender Attack Simulation's toolkit. 
+
+### Execution
+
+Using Microsoft's Attack Simulations, we pre-loaded the attack the week before it went live. This tool allows for a loose structure with custom-loaded segments as needed. Within this tool, we identified the target email distribution list, the spoofed 'from' email, the content of the email, the 'SharePointen' link, as well as the landing page for credential input. We launched the simulation on a Monday at 9am, hoping to catch people in their normal Monday morning workflows. The simulation concluded the following Wednesday at 9am, with a wrap-up email informing recipient that they had been participating in a phishing exercise. 
 
