@@ -6,3 +6,4 @@ During my internship in the summer of 2025, I collaborated with my technical men
 
 ## Introduction
 
+Scattered Spider is a well-known threat actor group, operating across many cyber domains. Of particular note is their inclination towards social engineering attacks using native English speakers. This adds a new level of difficulty, requiring our employees to be doubly sure of to whom they're talking. 
