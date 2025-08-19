@@ -8,7 +8,7 @@ During my internship in the summer of 2025, I collaborated with my technical men
 
 Scattered Spider is a well-known threat actor group, operating across many cyber domains. Of particular note is their inclination towards social engineering attacks using native English speakers. They prey on willingness to help people, exploiting HelpDesk functions such as password resets and MFA resets to gain initial access. This adds a new level of difficulty, requiring us to be doubly sure of who we're working with on the phone even for seemingly mundane interactions. 
 
-## Methodology & Execution
+## Methodology
 
 ### Pretext
 
@@ -22,3 +22,6 @@ To be able to impersonate our target effectively, we needed to build a profile. 
 
 For the attack vector, we repurposed a legitimate email sent out by our CEO, asking recipients to follow a link to show support for a local legal issue. However, the link in the email had been spoofed to redirect to our malicious company-branded SSO login page. Our intent was to forward the email using Microsoft Defender's Attack Simulation, which would make it appear to the recipient as a legitimate email from the executive. We would keep the technician on the line as we walk them through the email and the SSO sign in, claiming to be attempting to click the link on a mobile device while traveling. In order to truly set the pretext, we used spoofed Google phone numbers from towns near where the excutive lives, as well as employing ambient airport noises in the background. 
 
+## Execution
+
+To stack the cards in our favor as much as possible, my mentor and I both called in just after noon on a Friday, when the majority of the company is working remote. The intent was to catch a technician as they were about to leave for lunch, hoping that they'd be rushed and skip crucial identification steps. 
