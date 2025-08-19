@@ -8,7 +8,7 @@ During my internship in the summer of 2025, I collaborated with my technical men
 
 Scattered Spider is a well-known threat actor group, operating across many cyber domains. Of particular note is their inclination towards social engineering attacks using native English speakers. They prey on willingness to help people, exploiting HelpDesk functions such as password resets and MFA resets to gain initial access. This adds a new level of difficulty, requiring us to be doubly sure of who we're working with on the phone even for seemingly mundane interactions. 
 
-## Metholodogy & Execution
+## Methodology & Execution
 
 ### Pretext
 
