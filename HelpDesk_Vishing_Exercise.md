@@ -6,4 +6,6 @@ During my internship in the summer of 2025, I collaborated with my technical men
 
 ## Introduction
 
-Scattered Spider is a well-known threat actor group, operating across many cyber domains. Of particular note is their inclination towards social engineering attacks using native English speakers. This adds a new level of difficulty, requiring our employees to be doubly sure of to whom they're talking. 
+Scattered Spider is a well-known threat actor group, operating across many cyber domains. Of particular note is their inclination towards social engineering attacks using native English speakers. This adds a new level of difficulty, requiring us to be doubly sure of to who we're working with on the phone. 
+
+To ensure our HelpDesk is prepared for this emerging threat, my mentor and I prepared and executed a vishing attack against our HelpDesk. To emulate Scattered Spider's TTPs, we selected a remote executive as our impersonation target. This was a real person at the company, and using our Microsoft Defener's Attack Simulation toolkit, we were able to send emails as if they had come from him legitimate email. 
